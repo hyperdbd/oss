@@ -25,8 +25,8 @@ def add_total(data, weight):
 
 if __name__ == '__main__':
     # Load score data
-    class_kr = read_data('data/class_score_kr.csv')
-    class_en = read_data('data/class_score_en.csv')
+    class_kr = read_data('../data/class_score_kr.csv')
+    class_en = read_data('../data/class_score_en.csv')
 
     total_weight = [40 / 125, 60 / 100]
     add_total(class_kr, total_weight)

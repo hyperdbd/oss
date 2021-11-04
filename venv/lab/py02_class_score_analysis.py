@@ -28,7 +28,7 @@ def analyze_data(data):
 
 
 if __name__ == '__main__':
-    data = read_data('data/class_score_en.csv')
+    data = read_data('../data/class_score_en.csv')
     if data and len(data[0]) == 2:
         add_weighted_average(data, [40 / 125, 60 / 100])
         if len(data[0]) == 3:

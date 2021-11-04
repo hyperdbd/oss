@@ -20,7 +20,7 @@ def read_data(filename):
 
 if __name__ == '__main__':
     # Load score data
-    scores = np.array(read_data('data/class_score_en.csv'))
+    scores = np.array(read_data('../data/class_score_en.csv'))
     midtm_range = np.array([0, 125])
     final_range = np.array([0, 100])
 
